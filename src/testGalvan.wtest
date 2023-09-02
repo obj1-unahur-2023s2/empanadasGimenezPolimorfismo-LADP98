@@ -1,0 +1,18 @@
+import empleados.*
+
+describe "Test sobre las finanzas de Galvan"{
+	
+	// method initialize(){
+	//	galvan.cobrarSueldo()
+	//} 
+	
+	test "Galvan arranca con deuda cero"{
+		assert.equals(0,galvan.totalDeuda())
+	}
+	test "Galvan arranca con dinero cero"{
+		assert.equals(0,galvan.totalDinero())
+	}
+	test "El sueldo de galvan es de 150000"{
+		assert.equals(150000,galvan.sueldo())
+	}
+}
